@@ -7,12 +7,13 @@
         
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
-        <class>com.example.Customer</class>
-        <class>com.example.Account</class>
+        <class>ibtech.training.model.CustomerModel</class>
+        <class>ibtech.training.model.AccountModel</class>
+        <class>ibtech.training.model.CommandModel</class>
         
         <properties>
             
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bank"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/postgres"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
             <property name="javax.persistence.jdbc.password" value="Senoglu.3"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
